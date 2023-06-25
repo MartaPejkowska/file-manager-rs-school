@@ -14,7 +14,8 @@ export const compress=(command)=>{
     const outputFile=path.join(...directoryPath,...fileName)
 
     if (!fs.existsSync(fileToCompress) ) {
-        console.log(`Operation failed`)
+        console.log(`Operation failed\n`)
+        current()
       }
 
     else{

@@ -24,6 +24,7 @@ export const ls =() =>{
     }
     catch{
         err=>console.log(err)
+        current()
     }
 
 }

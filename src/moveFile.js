@@ -13,7 +13,8 @@ export const moveFile = async (command) => {
     const destFile=path.join(...directoryPath,...fileName)
 
     if (!fs.existsSync(srcPath)|| !fs.existsSync(paths.split(' ')[1])) {
-        console.log(`Operation failed`)
+        console.log(`Operation failed\n`)
+        current()
       }
     else{
 

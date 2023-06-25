@@ -29,5 +29,6 @@ export const operatingSystem=(command)=>{
     }
    catch{
     err=>console.log(err)
+    current()
    }
 }

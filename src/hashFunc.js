@@ -10,7 +10,8 @@ export const hashFunc=async (command)=>{
         const pathTofile=command.substring(5,)
 
         if (!fs.existsSync(pathTofile)) {
-            console.log(`Operation failed`)
+            console.log(`Operation failed\n`)
+            current()
           }
         else{
 

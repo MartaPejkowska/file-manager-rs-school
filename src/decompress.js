@@ -15,7 +15,8 @@ export const decompress=async (command)=>{
     console.log(fileToDecompress)
 
     if (!fs.existsSync(fileToDecompress) || !fs.existsSync(paths.split(' ')[1])) {
-        console.log(`Operation failed`)
+        console.log(`Operation failed\n`)
+        current()
       }
 
     else{

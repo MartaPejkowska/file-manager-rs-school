@@ -8,6 +8,7 @@ try {
   current()
 } catch (err) {
   console.error(`chdir: ${err}`);
+  current()
 }
 
 

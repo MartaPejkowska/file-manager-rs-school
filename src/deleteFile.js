@@ -7,6 +7,7 @@ export const deleteFile=(command)=>{
 
     if (!fs.existsSync(pathFile)) {
         console.log(`Operation failed`)
+        current()
       }
 
     else{

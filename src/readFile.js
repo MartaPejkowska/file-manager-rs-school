@@ -14,6 +14,7 @@ export const read=(command)=>{
 
     readableStream.on('error', function (error) {
         console.log(`Operation failed, ${error.message}`);
+        current()
     })
 
     readableStream.on('data', (chunk) => {

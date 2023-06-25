@@ -16,7 +16,8 @@ export const renameFile=async (command)=>{
     console.log(newFilePath)
 
     if (!fs.existsSync(oldFilePath)) {
-      console.log(`Operation failed`)
+      console.log(`Operation failed\n`)
+        current()
     }
     else{
 
